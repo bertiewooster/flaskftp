@@ -11,6 +11,9 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 @app.route('/')
 def hello_world():
     return 'hello world'
+    # Add a template with links to:
+    # Upload a new file
+    # Download an existing file--list the files in 
 
 # Upload API
 @app.route('/uploadfile', methods=['GET', 'POST'])
